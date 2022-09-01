@@ -37,6 +37,8 @@ group :development do
   gem "pry"
 end
 
+gem 'puma'
+
 # These gems will only be used when we are running tests
 group :test do
   gem "database_cleaner"
